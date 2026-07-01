@@ -2,4 +2,100 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/30018097/pexels-photo-30018097.jpeg');/*bg provisoir fa mbola tsy nahita sary*/
+    background-size: cover;
+    background-position: center;
+    /* background-color: #6892BC; */
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+a:hover {
+    color: #44033b; /*couleur global provisoire fa mbola tsy nahita*/
+    /* text-decoration: underline #44033b; */
+    transition: all 0.3s ease;
+}
+
+header {
+    position: relative;
+    padding: 0 1rem;
+    background-color: #00000085;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.navbar .logo a {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.navbar .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar .menu_burger {
+    display: none;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar .boutons {
+    display: flex;
+    gap: 20px;
+}
+
+.bouton {
+    background-color: #44033b;
+    color: #fff;
+    border: 1px solid #44033b;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bouton:hover {
+    background-color: #fff;
+    color: #44033b;
+    border: 1px solid #fff;
+    transition: all 0.3s ease;
+}
+
+.bouton.pro {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.bouton.pro:hover {
+    color: #44033b;
+    transition: all 0.3s ease;
+    border: 1px solid #44033b;
 }
