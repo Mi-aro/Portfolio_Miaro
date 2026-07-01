@@ -37,7 +37,33 @@
                 <i class="fa-solid fa-bars"></i>
             </div>
         </div>
+
+
+        <div class="menu_responsive ">
+            <ul class="links">
+                <li><a href="skills">Compétences</a></li>
+                <li><a href="projets">Projets</a></li>
+                <li><a href="parcours">Parcours</a></li>
+                <li><a href="about">À propos</a></li>
+                <div class="divider"></div>
+                <div class="menu_boutons">
+                    <a href="#" class="bouton pro"><i class="fa-solid fa-download"></i>Mon CV</a>
+                    <a href="#" class="bouton"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </ul>
+        </div>
     </header>
+    <script>
+        const menuBurger = document.querySelector('.menu_burger');
+        const menuBurgerIcone = document.querySelector('.menu_burger i');
+        const menuResponsive = document.querySelector('.menu_responsive');
+
+        menuBurger.onclick = function () {
+            menuResponsive.classList.toggle('open_menu');
+            const isOpen = menuResponsive.classList.contains('open_menu');
+            menuBurgerIcone.classList = isOpen ? 'fa-solid fa-xmark': 'fa-solid fa-bars';
+        }
+    </script>
 </body>
 
 </html>
