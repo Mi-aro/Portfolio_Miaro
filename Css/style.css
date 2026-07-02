@@ -7,10 +7,11 @@
 
 body {
     height: 100vh;
-    background-image: url('https://images.pexels.com/photos/30018097/pexels-photo-30018097.jpeg');/*bg provisoir fa mbola tsy nahita sary*/
+    background-image: url('../Asset/photo/black_net_4k_hd_black.jpg');
+    /* background-image: url('../Asset/photo/black_net_4k_hd_black.jpg'); */
     background-size: cover;
     background-position: center;
-    /* background-color: #6892BC; */
+    background-color: #26252b;
 }
 
 li {
@@ -23,9 +24,8 @@ a {
     font-size: 1.1rem;
 }
 
-a:hover {
-    color: #44033b; /*couleur global provisoire fa mbola tsy nahita*/
-    /* text-decoration: underline #44033b; */
+.links a:hover {
+    color: #003cbf;
     transition: all 0.3s ease;
 }
 
@@ -50,6 +50,11 @@ header {
     font-weight: bold;
 }
 
+.navbar .logo span {
+    color: #003cbf;
+    transition: all 0.3s ease;
+}
+
 .navbar .links {
     display: flex;
     justify-content: space-between;
@@ -70,9 +75,9 @@ header {
 }
 
 .bouton {
-    background-color: #44033b;
+    background-color: #003cbf;
     color: #fff;
-    border: 1px solid #44033b;
+    border: 1px solid #003cbf;
     outline: none;
     padding: 0.5rem 1rem;
     border-radius: 30px;
@@ -83,19 +88,24 @@ header {
 
 .bouton:hover {
     background-color: #fff;
-    color: #44033b;
+    color: #003cbf;
     border: 1px solid #fff;
     transition: all 0.3s ease;
 }
 
 .bouton.pro {
     background-color: transparent;
+    color: #003cbf;
+    border: 1px solid #003cbf;
+}
+
+.bouton.pro:hover {
+    transition: all 0.3s ease;
     color: #fff;
     border: 1px solid #fff;
 }
 
-.bouton.pro:hover {
-    color: #44033b;
-    transition: all 0.3s ease;
-    border: 1px solid #44033b;
+.bouton.bouton.pro i {
+    margin-right: 0.5rem;
+    color: #003cbf;
 }

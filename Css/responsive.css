@@ -68,7 +68,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 670px) {
     .menu_responsive {
         left: 2rem;
         width: unset;
