@@ -159,3 +159,22 @@ header {
     font-weight: 600;
     padding: 0 3rem;
 }
+
+.reseaux {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    bottom: 3rem;
+    width: 170px;
+}
+
+.reseaux a {
+    padding: 0 0.5rem;  
+}
+
+.reseaux i {
+    font-size: 25px;
+    cursor: pointer;
+}
