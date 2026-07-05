@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     /* background-image: url('../Asset/photo/black_net_4k_hd_black.jpg'); */
     /* background-image: url('../Asset/photo/black_abstract_flowers_art_4k_hd_black.jpg'); */
     background-image: url('../Asset/photo/small_black_hexagons_4k_hd_black.jpg');
@@ -28,20 +28,44 @@ a {
     font-size: 1.1rem;
 }
 
-.links a:hover {
-    color: #003cbf;
-    transition: all 0.3s ease;
+.links a {
+    position: relative;
+    transition: 0.3s;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
 }
 
-header {
+.links a::after {
+    content: "";
+    position: absolute;
+    background-color: #003cbf;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 7px;
+    transition: 0.5s;
+}
+
+.links a:hover {
+    background-color: rgba(128, 128, 128, 0.24);
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.links a:hover::after {
+    width: 100%;
+}
+
+/* header {
     position: relative;
     padding: 0 1rem;
-    /* background-color: #00000085; */
-}
+    background-color: #00000085;
+} */
 
 .navbar {
     width: 100%;
-    max-width: 1200px;
+    position: fixed;
+    padding: 0 5rem;
     height: 80px;
     margin: 0 auto;
     display: flex;
@@ -113,9 +137,11 @@ header {
     margin-right: 0.5rem;
     color: #003cbf;
 }
+
 /*-------------selection home--------------- */
 .home {
-    height: 80vh;
+    height: 100vh;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -171,7 +197,7 @@ header {
 }
 
 .reseaux a {
-    padding: 0 0.5rem;  
+    padding: 0 0.5rem;
 }
 
 .reseaux i {
