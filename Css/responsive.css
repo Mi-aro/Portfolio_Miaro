@@ -4,7 +4,6 @@
     display: none;
     height: 0;
     /* height: 285px; */
-    position: fixed;
     right: 2rem;
     top: 80px;
     width: 150px;
@@ -107,7 +106,7 @@
     body {
         height: 100vh;
         background-position: center;
-        background-color: black;
+        background-color: #020202;
         overflow: hidden;
     }
 
@@ -128,7 +127,7 @@
         display: flex;
         align-items: stretch;
         flex-direction: column;
-        height: 70%;
+        height: 90%;
     }
 
     .home .home_content {

@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="/Css/style.css">
     <link rel="stylesheet" href="/Css/responsive.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="icon" type="image/svg+xml" href="/Asset/photo/S.svg">
+    <link rel="icon" type="image/svg+xml" href="/Asset/icons/S.svg">
     <title>Miaro_Andrian</title>
 </head>
 
@@ -27,16 +27,19 @@
                 <a href="#">Dev.<span>Junior</span></a>
             </div>
             <ul class="links">
-                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="skills">Compétences</a></li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="skills">Compétences</a>
+                </li>
                 <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="projets">Projets</a></li>
-                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="parcours">Parcours</a></li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="parcours">Parcours</a>
+                </li>
                 <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="about">À propos</a></li>
             </ul>
             <div class="boutons" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                 <a href="#" class="bouton pro"><i class="fa-solid fa-download"></i>Mon CV</a>
                 <a href="#" class="bouton"><i class="fa-solid fa-phone"></i></a>
             </div>
-            <div class="menu_burger" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100"> <!-- rehefa misy responsive -->
+            <div class="menu_burger" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
+                <!-- rehefa misy responsive -->
                 <i class="fa-solid fa-bars"></i>
             </div>
         </div>
@@ -83,6 +86,18 @@
             <img src="../Asset/photo/Design sans titre.png" alt="">
         </div>
     </section>
+
+    <section class="skills">
+        <h3>Je suis encore en cours d'apprentissage et voici quelque une de mes <span>compétences</span>:</h3>
+        <div class="langages">
+            <img src="/Asset/icons/HTML5.png" alt="">
+            <img src="/Asset/icons/CSS3.png" alt="">
+            <img src="/Asset/icons/JavaScript.png" alt="">
+            <img src="/Asset/icons/Bootstrap.png" alt="">
+            <img src="/Asset/icons/C.png" alt="">
+            <img src="/Asset/icons/PHP.png" alt="">
+        </div>
+    </section>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         const menuBurger = document.querySelector('.menu_burger');
@@ -94,7 +109,7 @@
             const isOpen = menuResponsive.classList.contains('open_menu');
             menuBurgerIcone.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
         }
-        AOS.init({offset:0});
+        AOS.init({ offset: 0 });
     </script>
 </body>
 
