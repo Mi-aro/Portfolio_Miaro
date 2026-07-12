@@ -8,11 +8,7 @@
 body {
     /* height: 100vh; */
     /* background-image: url('../Asset/photo/black_net_4k_hd_black.jpg'); */
-    background-image: url('../Asset/photo/black_abstract_flowers_art_4k_hd_black.jpg');
-    /* background-image: url('../Asset/photo/small_black_hexagons_4k_hd_black.jpg'); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  
     background-color: #26252b;
     color: #fff;
     overflow-x: hidden;
@@ -147,6 +143,11 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 0 0 0 5rem;
+    background-image: url('../Asset/photo/black_abstract_flowers_art_4k_hd_black.jpg');
+    /* background-image: url('../Asset/photo/small_black_hexagons_4k_hd_black.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .home .home_content {
@@ -157,6 +158,7 @@ a {
     justify-content: center;
     flex-direction: column;
     padding: 1rem 2rem;
+    /* background-color: aqua; */
 }
 
 .home .home_content h1 {
@@ -202,6 +204,7 @@ a {
     /* bottom: 3rem; */
     /* width: 170px; */
     margin-top: auto;
+    padding: 3rem 0 0 0;
 }
 
 .reseaux a {

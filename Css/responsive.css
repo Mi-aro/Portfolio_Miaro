@@ -104,7 +104,7 @@
 @media (max-width: 800px) {
     body {
         height: 100vh;
-        background-image: url(../Asset/photo/c63329ed-0eda-4eaa-8b27-4fe658c6db69.png);
+        
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -118,6 +118,7 @@
     }
 
     .home {
+        background-image: url(../Asset/photo/c63329ed-0eda-4eaa-8b27-4fe658c6db69.png);
         padding: 0;
     }
 
@@ -128,26 +129,22 @@
     }
 
     .home .home_content h1 {
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.home .home_content h3 {
-    font-size: 20px;
-    font-weight: bold;
-    color: #003cbf;
-}
-
-.home .home_content p {
-    margin: 20px 0 40px;
-    font-size: 15px;
-    line-height: 1.5;
-}
-
-    .reseaux {
-        padding: 3rem 0 0 0;
+        font-size: 40px;
+        font-weight: 700;
     }
-    
+
+    .home .home_content h3 {
+        font-size: 20px;
+        font-weight: bold;
+        color: #003cbf;
+    }
+
+    .home .home_content p {
+        margin: 20px 0 40px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
     .profile img {
         display: none;
     }
