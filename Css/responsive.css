@@ -111,6 +111,11 @@
         overflow: hidden;
     }
 
+    .navbar {
+        padding: 0 1rem;
+        position: fixed;
+    }
+
     .menu_responsive {
         left: 2rem;
         width: unset;
@@ -123,13 +128,13 @@
         display: flex;
         align-items: stretch;
         flex-direction: column;
-        height: 100vh;
+        height: 70%;
     }
 
     .home .home_content {
         /* background-color: aqua; */
         height: auto;
-        width: 100vw;
+        width: 100%; /*na "100vw"*/
         display: flex;
         align-items: center;
         text-align: center;
