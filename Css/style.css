@@ -271,7 +271,7 @@ a {
 }
 
 .skills img {
-    width: 80px;
+    max-width: 15%;
     height: auto;
     padding: 0 1rem;
     cursor: pointer;
