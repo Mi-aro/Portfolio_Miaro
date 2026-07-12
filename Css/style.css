@@ -6,6 +6,7 @@
 }
 
 body {
+    position: relative;
     background-color: #26252b;
     color: #fff;
     overflow-x: hidden;
@@ -57,6 +58,7 @@ a {
 } */
 
 .navbar {
+    z-index: 1;
     width: 100%;
     position: fixed;
     padding: 0 5rem;
@@ -134,6 +136,8 @@ a {
 
 /*-------------section home--------------- */
 .home {
+    z-index: -1;
+    position: relative;
     height: 100vh;
     /* background-color: #003cbf; */
     display: flex;
