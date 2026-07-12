@@ -117,6 +117,7 @@
     .home {
         background-image: url(../Asset/photo/c63329ed-0eda-4eaa-8b27-4fe658c6db69.png);
         padding: 0;
+        max-width: 100%;
     }
 
     .home .home_content {
@@ -146,9 +147,8 @@
         display: none;
     }
 
-    .test {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .expr h4 {
+        font-family: 10px;
+        padding: 0.5rem;
     }
 }
