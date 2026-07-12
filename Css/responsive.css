@@ -104,10 +104,9 @@
 
 @media (max-width: 700px) {
     body {
-        height: 100vh;
+        /* height: 100vh; */
         background-position: center;
         background-color: #020202;
-        overflow: hidden;
     }
 
     .navbar {
@@ -127,7 +126,7 @@
         display: flex;
         align-items: stretch;
         flex-direction: column;
-        height: 70%;
+        min-height: 80vh;
     }
 
     .home .home_content {
