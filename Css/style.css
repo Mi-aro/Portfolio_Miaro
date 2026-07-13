@@ -147,7 +147,8 @@ a {
     padding: 0 0 0 2%;
     /* background-image: url('../Asset/photo/black_abstract_flowers_art_4k_hd_black.jpg'); */
     /* background-image: url('../Asset/photo/small_black_hexagons_4k_hd_black.jpg'); */
-    background-image: url('../Asset/photo/black_net_4k_hd_black.jpg');
+    /* background-image: url('../Asset/photo/black_net_4k_hd_black.jpg'); */
+    background-image: url('../Asset/photo/plexusblue.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -177,25 +178,56 @@ a {
 
 .home .home_content p {
     margin: 20px 0 40px;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
+    color: rgb(184, 175, 175);
 }
 
 .expr {
     /* background-color: aqua; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
+    gap: 20px;
 
 }
 
-.expr h4 {
-    /* background-color: #26252b; */
+#from {
+    background-color: rgba(128, 128, 128, 0.507);
     font-size: 16px;
     font-weight: 600;
-    padding: 0 3rem 0 3rem;
+    border-radius: 20px;
+    width: 15vw;
+    height: 5vw;
+    text-align: center;
+    border: 1px solid #003cbf;
+    cursor: pointer;
+}
+#nationalite {
+    background-color: rgba(128, 128, 128, 0.507);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 15vw;
+    height: 5vw;
+    text-align: center;
+    border: 1px solid #003cbf;
+    cursor: pointer;
+}
+
+#from span {
+    font-weight: 200;
+    font-size: 13px;
+    color: gray;
+    padding-right: 70%;
+}
+#nationalite span {
+    font-weight: 200;
+    font-size: 13px;
+    color: gray;
+    padding-right: 40%;
 }
 
 .reseaux {
