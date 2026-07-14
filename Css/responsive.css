@@ -143,7 +143,7 @@
     }
 
     .home {
-        background-image: url(../Asset/photo/c63329ed-0eda-4eaa-8b27-4fe658c6db69.png);
+        background-image: url(/Asset/photo/bg_img_telephone.png);
         padding: 0;
         margin: 0;
         display: flex;
