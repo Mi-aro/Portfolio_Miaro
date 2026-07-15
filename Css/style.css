@@ -334,16 +334,17 @@ a {
     padding: 1% 0;
 }
 
-.compétences .skills .objet .outils p {
+.compétences .skills .objet .langages p {
     margin-bottom: 13%;
-    /* margin-left: -10%; */
+    /* margin-left: -5%; */
     color: gray;
     font-size: 15px;
     font-weight: bold;
 }
-.compétences .skills .objet .langages p {
-    margin-bottom: 11%;
-    /* margin-left: -5%; */
+
+.compétences .skills .objet .outils p {
+    margin-bottom: 13%;
+    /* margin-left: -10%; */
     color: gray;
     font-size: 15px;
     font-weight: bold;
@@ -364,7 +365,6 @@ a {
     position: relative;
     z-index: -1;
     margin-left: 61%;
-    max-width: 35xw ;
 
 }
 

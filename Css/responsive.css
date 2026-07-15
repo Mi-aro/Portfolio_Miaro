@@ -68,6 +68,8 @@
         display: block;
     }
 
+    /*------section home---------*/
+
     .home {
         display: flex;
         justify-content: center;
@@ -124,7 +126,48 @@
     #nationalite span {
         font-size: 10px;
     }
+
+    /*------section skills---------*/
+
+
+    .compétences .skills h3{
+    font-size: 25px;
+    line-height: 2;
+    /* background-color: aqua; */
+    width: 100%;
+    padding: 0 5% 4%;
+    }
+
+    .compétences .skills .objet .langages p {
+        font-size: 13px;
+    }
+    .compétences .skills .objet .outils p {
+        font-size: 13px;
+    }
+
+    .compétences .petitimg {
+        /* background-color: aqua; */
+        margin-left: 45%;
+        
+    }
+
+    .compétences .petitimg img {
+        width: 50vw;
+        height: 50vw;
+        /* background-color: aqua; */
+        padding: 5rem 0 0 0;
+    }
+
+    .compétences .petitimg p {
+    /* background-color: #003cbf; */
+    max-width: 60%;
+    font-size: 15px;
+    margin: 70% 0 0 0;
 }
+
+}
+
+    /*---------sur téléphone----------*/
 
 @media (max-width: 650px) {
     body {
@@ -142,6 +185,8 @@
         left: 2rem;
         width: unset;
     }
+
+    /*------section home---------*/
 
     .home {
         background-image: url(/Asset/photo/bg_img_telephone.png);
@@ -195,5 +240,7 @@
     #nationalite span {
         font-size: 10px;
     }
+
+    /*------section skills---------*/
 
 }
