@@ -1,6 +1,6 @@
 .menu_responsive {
-    position: absolute;
-    z-index: 1;
+    position: fixed;
+    z-index: 2;
     display: none;
     height: 0;
     /* height: 285px; */
