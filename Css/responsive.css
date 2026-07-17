@@ -252,7 +252,7 @@
     /*------section skills---------*/
 
     .compétences {
-        height: 80vh;
+        height: 90vh;
         flex-direction: column;
         justify-content: space-between;
     }
@@ -269,6 +269,7 @@
         gap: 5%;
         width: 100%;
     }
+
     .compétences .skills .objet .outils {
         gap: 5%;
         width: 100%;
@@ -283,7 +284,7 @@
     }
 
     .compétences .petitimg img {
-       display: none;
+        display: none;
     }
 
     .compétences .petitimg p {
@@ -291,17 +292,37 @@
     }
 
     .compétences .petitimgresp {
-        display: block;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        min-height: 40%;
+        height: 30%;
         /* background-color: #003cbf; */
     }
-    .petitimgresp img{
-        width: 100vw;
+
+    .petitimgresp img {
+        width: 80%;
+    }
+
+
+    .compétences .petitimgresp p {
+        /* background-color: #003cbf; */
+        font-size: 10px;
+        color: gray;
+        text-align: center;
+    }
+
+    .compétences .petitimgresp span {
+        color: #003cbf;
+        font-weight: bold;
     }
 
 }
 
-@media  (max-width: 390px) {
-        .compétences {
+@media (max-width: 390px) {
+    .compétences {
         height: 100vh;
     }
 }
