@@ -251,9 +251,11 @@
 
     /*------section skills---------*/
 
-    /* .compétences {
-        height: 100vh;
-    } */
+    .compétences {
+        height: 80vh;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
     .compétences .skills h3 {
         font-size: 20px;
@@ -280,21 +282,26 @@
         cursor: pointer;
     }
 
-
-    .compétences .petitimg {
-        /* background-color: #003cbf; */
-        width: 100vh;
-        margin: 40% 0 0 0;
-        display: flex;
-    }
-    .compétences .petitimg img{
-        margin-left: 30%;
-        width: 70vw;
-        height: 70vw;
+    .compétences .petitimg img {
+       display: none;
     }
 
     .compétences .petitimg p {
-        margin: 50% 0 0 2%;
+        display: none;
     }
 
+    .compétences .petitimgresp {
+        display: block;
+        /* background-color: #003cbf; */
+    }
+    .petitimgresp img{
+        width: 100vw;
+    }
+
+}
+
+@media  (max-width: 390px) {
+        .compétences {
+        height: 100vh;
+    }
 }

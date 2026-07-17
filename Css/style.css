@@ -390,3 +390,7 @@ a {
     color: #003cbf;
     font-weight: bold;
 }
+
+.compétences .petitimgresp {
+    display: none;
+}
