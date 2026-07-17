@@ -252,7 +252,7 @@
     /*------section skills---------*/
 
     .compétences {
-        height: 90vh;
+        min-height: 100vh;
         flex-direction: column;
         justify-content: space-between;
     }
@@ -319,10 +319,4 @@
         font-weight: bold;
     }
 
-}
-
-@media (max-width: 390px) {
-    .compétences {
-        height: 100vh;
-    }
 }
