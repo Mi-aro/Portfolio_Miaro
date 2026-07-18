@@ -1,0 +1,75 @@
+            /*-----animation Expr------ */
+
+#from::after, #from::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle1), transparent 50%, #003cbf);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius: 20px;
+    z-index: -5;
+    padding: 3px;
+    animation: 3s spin linear infinite;
+}
+
+#from::before {
+    filter: blur(1rem);
+    opacity: 0.5;
+}
+
+@property --angle1 {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes spin {
+    from {
+        --angle1: 0deg;
+    }
+
+    to {
+       --angle1: 360deg; 
+    }
+}
+
+#nationalite::after, #nationalite::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle2), white, red, green, white);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius: 20px;
+    z-index: -5;
+    padding: 3px;
+    animation: 2s miodina linear infinite;
+}
+
+#nationalite::before {
+    filter: blur(1rem);
+    opacity: 0.3;
+}
+
+@property --angle2 {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes miodina {
+    from {
+        --angle2: 360deg;
+    }
+
+    to {
+       --angle2: 0deg; 
+    }
+}
+
+
