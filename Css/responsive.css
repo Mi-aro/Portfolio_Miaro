@@ -169,6 +169,28 @@
         margin: 70% 0 0 0;
     }
 
+
+    /* ---------section projets--------- */
+
+
+    .projets h3 {
+        font-size: 25px;
+        line-height: 2;
+        /* background-color: aqua; */
+        width: 100%;
+    }
+
+    /* .projets .grilles {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .projets .grilles .grille {
+        max-width: 50%;
+        width: unset;
+    } */
+
 }
 
                     /*---------sur téléphone----------*/
