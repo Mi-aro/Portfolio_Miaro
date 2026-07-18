@@ -68,7 +68,7 @@
         display: block;
     }
 
-    /*------section home---------*/
+                     /*------section home---------*/
 
     .home {
         display: flex;
@@ -171,7 +171,7 @@
 
 }
 
-/*---------sur téléphone----------*/
+                    /*---------sur téléphone----------*/
 
 @media (max-width: 650px) {
     body {
