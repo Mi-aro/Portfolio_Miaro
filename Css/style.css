@@ -413,6 +413,20 @@ a {
     background-size: 40px 40px; */
 }
 
+.projets h3 {
+    font-size: 25px;
+    line-height: 2;
+    /* background-color: aqua; */
+    max-width: 80%;
+    padding: 1% 0 0 4%;
+}
+
+.projets span {
+    color: #003cbf;
+    font-weight: bold;
+}
+
+
 .projets .grilles {
     height: 100vh;
     display: flex;
