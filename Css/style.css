@@ -598,7 +598,7 @@ a {
 .parcours .tableau .contenu tbody tr {
     text-align: left;
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     /* color: rgb(134, 131, 131); */
     color: white;
 }
@@ -607,6 +607,13 @@ a {
 .parcours .tableau .contenu th,
 td {
     padding: 1rem 3rem;
+}
+
+.parcours .tableau .contenu .ecole {
+    color: rgb(17, 17, 17);
+    font-size: 18px;
+    font-weight: bold;
+    border-right: 2px solid rgb(17, 17, 17);
 }
 /* 
 .parcours .tableau .contenu tbody tr,
