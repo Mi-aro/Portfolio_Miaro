@@ -407,6 +407,7 @@ a {
 
 .projets {
     min-height: 140vh;
+    position: relative;
     /* background-color: #003cbf; */
     /* background: 
         linear-gradient(#ffffff13 1px, transparent 0.5px),
@@ -439,6 +440,7 @@ a {
     box-sizing: border-box;
     gap: 20px;
     flex-wrap: wrap;
+    flex: 1;
 }
 
 .projets .grilles .grille {
@@ -484,4 +486,27 @@ a {
     /* background-color: #003cbf; */
     width: 25px;
     /* margin-top: auto; */
+}
+
+.projets .follow {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+    bottom: 0;
+    /* left: 0;
+    right: 0; */
+    /* background-color: #003cbf; */
+    padding: 1% 5%;
+}
+
+.projets i {
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.projets i:hover {
+    transform: scale(1.2);
 }
