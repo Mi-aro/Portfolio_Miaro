@@ -591,6 +591,10 @@ a {
     color: #003cbf;
 }
 
+.parcours .tableau .contenu thead tr i{
+    padding: 1rem;
+}
+
 .parcours .tableau .contenu tbody tr {
     text-align: left;
     text-align: center;
