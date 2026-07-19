@@ -67,7 +67,7 @@ a {
     align-items: center;
     justify-content: space-between;
     background: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(4px) 
+    backdrop-filter: blur(4px)
 }
 
 .navbar .logo a {
@@ -224,6 +224,7 @@ a {
     color: gray;
     padding-right: 70%;
 }
+
 #nationalite span {
     font-weight: 200;
     font-size: 13px;
@@ -236,7 +237,8 @@ a {
     /* display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row; */  /*otrany tsisy dikany*/
+    flex-direction: row; */
+    /*otrany tsisy dikany*/
     /* bottom: 3rem; */
     /* width: 170px; */
     z-index: 10;
@@ -263,7 +265,7 @@ a {
     /* position: relative;  */
     height: 95vh;
     width: 100%;
-    padding: 0 2rem 2rem 2rem ;
+    padding: 0 2rem 2rem 2rem;
     transition: 0.6s;
 }
 
@@ -273,7 +275,7 @@ a {
     height: 80vh;
     display: flex;
     /* justify-content: space-between; */
-    background: 
+    background:
         linear-gradient(#ffffff13 1px, transparent 0.5px),
         linear-gradient(90deg, #ffffff13 1px, transparent 0.5px);
     background-size: 40px 40px;
@@ -374,7 +376,7 @@ a {
 
 }
 
-.compétences .petitimg img{
+.compétences .petitimg img {
     width: 35vw;
     height: 35vw;
     position: relative;
@@ -403,7 +405,7 @@ a {
 }
 
 
-                    /* ---------section projets--------- */
+/* ---------section projets--------- */
 
 .projets {
     min-height: 140vh;
@@ -482,6 +484,7 @@ a {
     /* background-color: aqua; */
     /* margin-bottom: auto; */
 }
+
 .projets .grilles .grille .icon img {
     /* background-color: #003cbf; */
     width: 25px;
@@ -523,3 +526,88 @@ a {
     transform: scale(1.2);
     color: #003cbf;
 }
+
+/* ---------section PARCOURS------- */
+
+.parcours {
+    height: 100vh;
+    background-image: url(/Asset/photo/background/bg_parcours.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.parcours h3 {
+    font-size: 25px;
+    line-height: 2;
+    padding: 1% 0 0 4%;
+}
+
+.parcours h3 span {
+    color: #003cbf;
+    font-weight: bold;
+}
+
+.parcours p {
+    font-size: 15px;
+    line-height: 2;
+    max-width: 80%;
+    padding: 0 0 1rem 4%;
+    color: rgb(26, 26, 26);
+}
+
+
+.parcours p span {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.parcours .tableau {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parcours .tableau .contenu {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 20px;
+    border: 2px solid rgb(26, 26, 26);
+    max-width: 100%;
+    height: 70vh;
+    width: auto;
+    background-color: #00000050;
+    /* box-shadow: 0 50px 50px rgba(243, 242, 242, 0.486); */
+    /* margin: 100px auto; */
+    /* border: 2px solid white; */
+    /* border-radius: 20px; */
+}
+
+.parcours .tableau .contenu thead tr {
+    /* text-align: left; */
+    font-size: 20px;
+    color: #003cbf;
+}
+
+.parcours .tableau .contenu tbody tr {
+    text-align: left;
+    text-align: center;
+    font-size: 15px;
+    /* color: rgb(134, 131, 131); */
+    color: white;
+}
+
+
+.parcours .tableau .contenu th,
+td {
+    padding: 1rem 3rem;
+}
+/* 
+.parcours .tableau .contenu tbody tr,
+td,
+th {
+    border: 3px solid rgba(255, 255, 255, 0.24);
+    border-radius: 20px;
+} */
