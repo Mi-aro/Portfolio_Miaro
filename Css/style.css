@@ -89,6 +89,7 @@ a {
 
 .navbar .menu_burger {
     display: none;
+    position: relative;
     font-size: 2rem;
     color: #fff;
     cursor: pointer;
