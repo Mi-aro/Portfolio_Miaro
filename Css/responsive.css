@@ -190,7 +190,7 @@
 
 /*---------sur téléphone----------*/
 
-@media (max-width: 650px) {
+@media (max-width: 600px) {
     body {
         /* height: 100vh; */
         background-position: center;
@@ -339,7 +339,7 @@
     /* ------section projets--------- */
 
     .projets {
-        height: 290vh;
+        height: 300vh;
     }
 
     .projets h3 {

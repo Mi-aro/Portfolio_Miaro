@@ -255,6 +255,7 @@ a {
 }
 
 .reseaux i:hover {
+    color: #003cbf;
     transform: scale(1.2);
 }
 
@@ -501,12 +502,25 @@ a {
     padding: 1% 5%;
 }
 
-.projets i {
-    font-size: 25px;
+.projets .follow p {
+    color: gray;
+    font-size: 13px;
+}
+
+.projets .follow .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.projets .follow .icon i {
+    font-size: 20px;
     cursor: pointer;
     transition: 0.6s;
 }
 
-.projets i:hover {
+.projets .follow .icon i:hover {
     transform: scale(1.2);
+    color: #003cbf;
 }
