@@ -68,7 +68,7 @@
         display: block;
     }
 
-                     /*------section home---------*/
+    /*------section home---------*/
 
     .home {
         display: flex;
@@ -172,6 +172,11 @@
 
     /* ---------section projets--------- */
 
+    .projets {
+        height: 180vh;
+        /* background-color: #003cbf; */
+    }
+
 
     .projets h3 {
         font-size: 25px;
@@ -180,20 +185,10 @@
         width: 100%;
     }
 
-    /* .projets .grilles {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        gap: 10px;
-    }
-
-    .projets .grilles .grille {
-        max-width: 50%;
-        width: unset;
-    } */
 
 }
 
-                    /*---------sur téléphone----------*/
+/*---------sur téléphone----------*/
 
 @media (max-width: 650px) {
     body {
@@ -215,7 +210,7 @@
     /*------section home---------*/
 
     .home {
-        background-image: url(/Asset/photo/bg_img_telephone.png);
+        background-image: url(/Asset/photo/background/bg_img_telephone.png);
         padding: 0;
         margin: 0;
         display: flex;
@@ -317,10 +312,10 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 0;
+        /* padding: 0;
         margin: 0;
         min-height: 40%;
-        height: 30%;
+        height: 30%; */
         /* background-color: #003cbf; */
     }
 
@@ -341,4 +336,40 @@
         font-weight: bold;
     }
 
+    /* ------section projets--------- */
+
+    .projets {
+        height: 290vh;
+    }
+
+    .projets h3 {
+        font-size: 15px;
+    }
+
+    .projets .grilles .grille {
+        height: 45%;
+        /* max-width: 100%; */
+        /* width: unset; */
+        display: flex;
+        text-align: center;
+        align-items: center;
+        background-color: #ffffff48;
+        border-radius: 20px;
+        /* background-color: aqua; */
+        justify-content: space-between;
+    }
+
+    .projets .grilles .grille img {
+        width: 20vw;
+        padding: 1rem 0;
+    }
+
+    .projets .grilles .grille p {
+        font-size: 10px;
+    }
+
+    .projets .grilles .grille .icon img {
+        /* background-color: #003cbf; */
+        width: 5%;
+    }
 }

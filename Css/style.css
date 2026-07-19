@@ -431,7 +431,7 @@ a {
     height: 100vh;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     /* background-color: aqua; */
     padding: 5%;
     margin: 0;
@@ -453,7 +453,7 @@ a {
     justify-content: space-between;
 }
 
-.projets .grilles .grille p{
+.projets .grilles .grille p {
     color: rgb(134, 131, 131);
     font-size: 15px;
     padding: 0 1rem;
