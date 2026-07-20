@@ -188,54 +188,56 @@
 
     /* ---------section PARCOURS------- */
 
-.parcours h3 {
-    font-size: 25px;
-    line-height: 1;
-    width: unset;
-}
+    .parcours .soratra h3 {
+        font-size: 25px;
+        width: unset;
+    }
 
-.parcours p {
-    width: unset;
-    font-size: 13px;
-}
+    .parcours .soratra p {
+        width: unset;
+        font-size: 13px;
+    }
 
-/* .parcours .tableau {
+    /* .parcours .tableau {
     width: 100%;
 } */
 
-.parcours .tableau .contenu {
-    /* max-width: 500px; */
-    width: 100%;
-    /* background-color: aqua; */
+    .parcours .tableau .contenu {
+        /* max-width: 500px; */
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    .parcours .tableau .contenu thead tr {
+        /* text-align: left; */
+        font-size: 17px;
+    }
+
+    .parcours .tableau .contenu thead tr i {
+        padding: 0 2rem;
+        font-size: 15px;
+        /* background-color: aqua; */
+    }
+
+    .parcours .tableau .contenu th,
+    td {
+        padding: 1% 1rem;
+    }
+
+    .parcours .tableau .contenu tbody tr {
+        font-size: 13px;
+    }
+
+    .parcours .tableau .contenu .ecole {
+        font-size: 15px;
+        color: white;
+        text-align: left;
+    }
 }
 
-.parcours .tableau .contenu thead tr {
-    /* text-align: left; */
-    font-size: 17px;
-}
 
-.parcours .tableau .contenu thead tr i{
-    padding: 0 2rem;
-    font-size: 15px;
-    /* background-color: aqua; */
-}
 
-.parcours .tableau .contenu th,
-td {
-    padding: 1% 1em;
-}
 
-.parcours .tableau .contenu tbody tr {
-    font-size: 13px;
-}
-
-.parcours .tableau .contenu .ecole {
-    font-size: 15px;
-    color: white;
-    text-align: left;
-}
-
-}
 
 /*---------sur téléphone----------*/
 
@@ -421,4 +423,63 @@ td {
         /* background-color: #003cbf; */
         width: 5%;
     }
+
+    /* ---------section PARCOURS------- */
+
+    .parcours {
+        justify-content: space-between;
+        gap: 1px;
+        height: 80vh;
+    }
+
+    .parcours .soratra h3 {
+        font-size: 15px;
+        line-height: 3;
+    }
+
+    .parcours .soratra p {
+        font-size: 10px;
+        width: 100%;
+        line-height: 1;
+    }
+
+    .parcours .tableau .contenu {
+        height: 40vh;
+    }
+
+    .parcours .tableau .contenu thead tr {
+        /* text-align: left; */
+        font-size: 10px;
+    }
+
+    .parcours .tableau .contenu thead tr i {
+        padding: 0 2rem;
+        font-size: 10px;
+        /* background-color: aqua; */
+    }
+
+    .parcours .tableau .contenu th,
+    td {
+        padding: 0 0.3rem;
+    }
+
+    .parcours .tableau .contenu tbody tr {
+        font-size: 8px;
+    }
+
+    .parcours .tableau .contenu .ecole {
+        font-size: 10px;
+        color: white;
+        text-align: left;
+    }
+
+    .parcours .progressImg {
+        display: block;
+    }
+
+    .parcours .progressImg img {
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
 }

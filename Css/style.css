@@ -541,18 +541,18 @@ a {
     /* justify-content: space-between; */
 }
 
-.parcours h3 {
+.parcours .soratra h3 {
     font-size: 25px;
     line-height: 2;
     padding: 1% 0 0 4%;
 }
 
-.parcours h3 span {
+.parcours .soratra h3 span {
     color: #003cbf;
     font-weight: bold;
 }
 
-.parcours p {
+.parcours .soratra p {
     font-size: 15px;
     line-height: 2;
     max-width: 80%;
@@ -561,7 +561,7 @@ a {
 }
 
 
-.parcours p span {
+.parcours .soratra p span {
     font-weight: bold;
     font-size: 25px;
     color: white;
@@ -596,7 +596,7 @@ a {
     color: #003cbf;
 }
 
-.parcours .tableau .contenu thead tr i{
+.parcours .tableau .contenu thead tr i {
     padding: 1rem;
     font-size: 20px;
 }
@@ -621,6 +621,7 @@ td {
     font-weight: bold;
     /* border-right: 2px solid rgb(17, 17, 17); */
 }
+
 /* 
 .parcours .tableau .contenu tbody tr,
 td,
@@ -628,3 +629,7 @@ th {
     border: 3px solid rgba(255, 255, 255, 0.24);
     border-radius: 20px;
 } */
+
+.parcours .progressImg {
+    display: none;
+}
