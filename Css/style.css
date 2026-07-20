@@ -534,8 +534,11 @@ a {
     background-image: url(/Asset/photo/background/bg_parcours.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-between; */
 }
 
 .parcours h3 {
@@ -568,6 +571,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color: aqua; */
+    /* max-width: 1200px; */
 }
 
 .parcours .tableau .contenu {
@@ -593,6 +598,7 @@ a {
 
 .parcours .tableau .contenu thead tr i{
     padding: 1rem;
+    font-size: 20px;
 }
 
 .parcours .tableau .contenu tbody tr {
@@ -606,14 +612,14 @@ a {
 
 .parcours .tableau .contenu th,
 td {
-    padding: 1rem 3rem;
+    padding: 1% 3rem;
 }
 
 .parcours .tableau .contenu .ecole {
     color: rgb(17, 17, 17);
     font-size: 18px;
     font-weight: bold;
-    border-right: 2px solid rgb(17, 17, 17);
+    /* border-right: 2px solid rgb(17, 17, 17); */
 }
 /* 
 .parcours .tableau .contenu tbody tr,

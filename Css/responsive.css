@@ -186,6 +186,55 @@
     }
 
 
+    /* ---------section PARCOURS------- */
+
+.parcours h3 {
+    font-size: 25px;
+    line-height: 1;
+    width: unset;
+}
+
+.parcours p {
+    width: unset;
+    font-size: 13px;
+}
+
+/* .parcours .tableau {
+    width: 100%;
+} */
+
+.parcours .tableau .contenu {
+    /* max-width: 500px; */
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.parcours .tableau .contenu thead tr {
+    /* text-align: left; */
+    font-size: 17px;
+}
+
+.parcours .tableau .contenu thead tr i{
+    padding: 0 2rem;
+    font-size: 15px;
+    /* background-color: aqua; */
+}
+
+.parcours .tableau .contenu th,
+td {
+    padding: 1% 1em;
+}
+
+.parcours .tableau .contenu tbody tr {
+    font-size: 13px;
+}
+
+.parcours .tableau .contenu .ecole {
+    font-size: 15px;
+    color: white;
+    text-align: left;
+}
+
 }
 
 /*---------sur téléphone----------*/
