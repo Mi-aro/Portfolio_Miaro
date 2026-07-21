@@ -429,7 +429,7 @@
     .parcours {
         justify-content: space-between;
         gap: 1px;
-        height: 90vh;
+        height: 100vh;
     }
 
     .parcours .soratra h3 {
