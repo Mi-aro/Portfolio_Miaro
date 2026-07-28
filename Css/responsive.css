@@ -233,6 +233,33 @@
         color: white;
         text-align: left;
     }
+
+    /* section about */
+
+    .about {
+        height: 105vh;
+    }
+
+    .about .tenykely {
+        width: 90%;
+    }
+
+    .about .tenykely h3 {
+        font-size: 20px;
+    }
+    .about .tenykely p {
+        font-size: 13px;
+    }
+
+    .about .contenair .presentation .info h5 {
+        font-size: 10px;
+    }
+
+    .about .contenair .presentation .info p {
+        font-size: 15px;
+    }
+
+
 }
 
 
@@ -480,6 +507,44 @@
     .parcours .progressImg img {
         width: 100%;
         /* background-color: aqua; */
+    }
+
+    /* section about */
+
+    .about {
+        height: 115vh;
+    }
+
+    .about .tenykely h3 {
+        font-size: 15px;
+    }
+
+    .about .tenykely p {
+        font-size: 10px;
+    }
+
+    .about .contenair {
+        flex-direction: column;
+    }
+
+    .about .contenair .presentation .info h5 {
+        font-size: 5px;
+    }
+
+    .about .contenair .presentation .info p {
+        font-size: 10px;
+    }
+
+    .about .contenair .presentation {
+        width: 100%;
+    }
+
+    .about .contenair .message {
+        width: 100%;
+    }
+
+    .about .contenair .presentation .imgmess img {
+        display: none;
     }
 
 }
