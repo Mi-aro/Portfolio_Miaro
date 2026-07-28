@@ -68,6 +68,10 @@
         display: block;
     }
 
+    .links a:hover {
+        background-color: transparent;
+    }
+
     /*------section home---------*/
 
     .home {
