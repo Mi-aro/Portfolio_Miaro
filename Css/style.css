@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -415,6 +416,10 @@ a {
         linear-gradient(#ffffff13 1px, transparent 0.5px),
         linear-gradient(90deg, #ffffff13 1px, transparent 0.5px);
     background-size: 40px 40px; */
+     /* background-image: url(/Asset/photo/plexus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
 }
 
 .projets h3 {
@@ -632,4 +637,160 @@ th {
 
 .parcours .progressImg {
     display: none;
+}
+
+/* section about */
+
+
+.about {
+    height: 100vh;
+    /* background-color: aqua; */
+    /* background-image: url(/Asset/photo/barre.png);
+    background-image: url(/Asset/photo/plexus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.about .tenykely {
+    width: 60%;
+}
+
+.about .tenykely h3 {
+    font-size: 25px;
+    line-height: 2;
+    padding: 1% 0 0 4%;
+}
+
+.about .tenykely h3 span {
+    color: #003cbf;
+}
+
+.about .tenykely p {
+    font-size: 15px;
+    line-height: 2;
+    padding: 1rem 0 0 4%;
+    font-weight: 100;
+}
+
+.about .contenair {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: #003cbf; */
+}
+
+.about .contenair .presentation {
+    /* background-color: aqua; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 4% 4% 0;
+}
+
+.about .contenair .presentation .info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about .contenair .presentation .info h5 {
+    font-weight: 100;
+    font-size: 11px;
+}
+
+.about .contenair .presentation .info p {
+    font-size: 17px;
+}
+
+.about .contenair .presentation .info p span {
+    color: #003cbf;
+    font-weight: bold;
+}
+
+.about .contenair .presentation .imgmess img {
+    margin-left: 60%;
+}
+
+.about .contenair .message {
+    /* background-color: aqua; */
+    width: 50%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+}
+
+.about .contenair .message .vous {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.about .contenair .message .vous .votre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.about .contenair .message .vous .votre p {
+    font-weight: 100;
+    font-size: 10px;
+}
+
+.about .contenair .message .vous .votre input {
+    padding: 1rem;
+    background-color: #ffffff48;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+.about .contenair .message .mess input {
+    width: 100%;
+    height: 100px;
+    padding: 0 1rem;
+    background-color: #ffffff48;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+.about .contenair .message .btnsend {
+    width: 100px;
+    background-color: #003cbf;
+    color: #fff;
+    border: 1px solid #003cbf;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    font-size: 1px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: auto;
+}
+
+.about .contenair .message h3 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 4%;
+    background: rgba(66, 65, 65, 0.308);
+    backdrop-filter: blur(4px);
+}
+
+footer p {
+    color: #003cbf;
 }
