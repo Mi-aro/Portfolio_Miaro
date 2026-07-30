@@ -768,23 +768,48 @@ th {
     color: #fff;
     outline: none;
 }
+.about .contenair .message .mess textarea {
+    width: 100%;
+    height: 100px;
+    padding: 0 1rem;
+    background-color: #ffffff48;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    outline: none;
+}
 
 .about .contenair .message .btnsend {
     width: 100px;
-    background-color: #003cbf;
-    outline: none;
-    padding: 2% 2%;
-    border-radius: 30px;
-    font-size: 1px;
-    cursor: pointer;
     text-align: center;
     margin-left: auto;
-    transition: 0.3s ease;
+    background-color: #003cbf;
+      border-radius: 30px;
+}
+
+
+
+
+.about .contenair .message .btnsend button {
+    background: none;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    color: rgb(137, 137, 139);
+    transition: 1s ease;
+}
+
+.about .contenair .message .btnsend button:active{
+    transform: scale(0.5);
 }
 
 .about .contenair .message .btnsend:hover {
     background-color: #012064;
 }
+
 
 .about .contenair .message h3 {
     font-size: 15px;

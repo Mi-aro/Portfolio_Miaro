@@ -300,23 +300,22 @@
                     <img src="/Asset/photo/about/message.png" alt="imgmess">
                 </div>
             </div>
-            <form class="message"  data-aos="fade-up-right" data-aos-offset="100" data-aos-duration="2000" data-aos-delay="300">
-
+            <form class="message"  data-aos="fade-up-right" data-aos-offset="100" data-aos-duration="2000" data-aos-delay="300" action="mailto:sahaninanyfitia@gmail.com" method="post" enctype="text/plain">
                 <div class="vous">
                     <div class="votre">
                         <p>Votre Nom:</p>
-                        <input type="text" placeholder="pseudo...">
+                        <input type="text" name="nom" placeholder="pseudo..." required>
                     </div>
                     <div class="votre">
                         <p>Votre email:</p>
-                        <input type="text" placeholder="email@gmail.com">
+                        <input type="email" name="email" placeholder="ton.adresse@email.com" required>
                     </div>
                 </div>
                 <div class="mess">
-                    <input type="email" placeholder="Ecrivez votre message ici...">
+                    <textarea name="message" placeholder="Ecrivez votre message ici..." required></textarea>
                 </div>
                 <div class="btnsend">
-                    <a href="#">Envoyer</a>
+                    <button type="submit">Envoyer</button>
                 </div>
                 <h3>« Vos critiques seront très appréciées ! ».</h3>
             </form>
