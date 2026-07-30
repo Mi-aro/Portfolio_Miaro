@@ -516,6 +516,7 @@
     /* section about */
 
     .about {
+        padding: 3rem 0;
         height: 115vh;
     }
 
