@@ -122,8 +122,8 @@ a {
 
 .bouton.pro {
     background-color: transparent;
+    backdrop-filter: blur(50px);
     color: #003cbf;
-    border: 1px solid #003cbf;
 }
 
 .bouton.pro:hover {
@@ -160,12 +160,12 @@ a {
     /* align-items: center; */
     justify-content: center;
     flex-direction: column;
-    padding: 1rem 2rem;
+    padding: 10rem 2rem 0;
     /* background-color: aqua; */
 }
 
 .home .home_content h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
 }
 
@@ -284,7 +284,7 @@ a {
 
 .compétences .skills {
     /* background-color: #003cbf; */
-    padding: 2rem 0;
+    padding: 4rem 0;
     position: absolute;
     z-index: 1;
     display: flex;
@@ -354,9 +354,9 @@ a {
     /* margin-bottom: 13%; */
     /* margin-left: -10%; */
     padding: 0;
-    color: gray;
     font-size: 15px;
     font-weight: bold;
+    color: rgb(184, 175, 175);
 }
 
 .compétences .skills .objet img {
@@ -392,7 +392,7 @@ a {
     max-width: 60%;
     font-size: 15px;
     margin: 50% 0 0 0;
-    color: gray;
+    color: rgb(184, 175, 175);
 }
 
 
@@ -411,12 +411,13 @@ a {
 .projets {
     min-height: 140vh;
     position: relative;
+    padding: 4rem 0;
     /* background-color: #003cbf; */
     /* background: 
         linear-gradient(#ffffff13 1px, transparent 0.5px),
         linear-gradient(90deg, #ffffff13 1px, transparent 0.5px);
     background-size: 40px 40px; */
-     /* background-image: url(/Asset/photo/plexus.png);
+    /* background-image: url(/Asset/photo/plexus.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; */
@@ -427,7 +428,7 @@ a {
     line-height: 2;
     /* background-color: aqua; */
     max-width: 80%;
-    padding: 1% 0 0 4%;
+    padding: 0 0 0 4%;
 }
 
 .projets span {
@@ -442,7 +443,7 @@ a {
     align-items: center;
     justify-content: center;
     /* background-color: aqua; */
-    padding: 5%;
+    padding: 4% 5%;
     margin: 0;
     box-sizing: border-box;
     gap: 20px;
@@ -464,9 +465,10 @@ a {
 }
 
 .projets .grilles .grille p {
-    color: rgb(134, 131, 131);
     font-size: 15px;
     padding: 0 1rem;
+    line-height: 1.5;
+    color: rgb(184, 175, 175);
 }
 
 .projets .grilles .grille span {
@@ -510,8 +512,9 @@ a {
 }
 
 .projets .follow p {
-    color: gray;
-    font-size: 13px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(184, 175, 175);
 }
 
 .projets .follow .icon {
@@ -535,13 +538,15 @@ a {
 /* ---------section PARCOURS------- */
 
 .parcours {
-    height: 100vh;
-    background-image: url(/Asset/photo/background/bg_parcours.png);
+    height: 110vh;
+    /* background-image: url(/Asset/photo/background/bg_parcours.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background: linear-gradient(rgb(137, 137, 139), #1f52c0, rgba(59, 59, 59, 0.603)) ;
     display: flex;
     flex-direction: column;
+    padding: 3rem 0;
     /* align-items: center; */
     /* justify-content: space-between; */
 }
@@ -644,6 +649,7 @@ th {
 
 .about {
     height: 115vh;
+    padding: 3rem;
     /* background-color: aqua; */
     /* background-image: url(/Asset/photo/barre.png);
     background-image: url(/Asset/photo/plexus.png);
@@ -777,7 +783,7 @@ th {
 }
 
 .about .contenair .message .btnsend:hover {
-     background-color: #012064;
+    background-color: #012064;
 }
 
 .about .contenair .message h3 {
