@@ -41,14 +41,14 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: conic-gradient(from var(--angle2), white, red, green, white);
+    background-image: conic-gradient(from var(--angle2), transparent 50%, #003cbf);
     top: 50%;
     left: 50%;
     translate: -50% -50%;
     border-radius: 20px;
     z-index: -5;
     padding: 3px;
-    animation: 2s miodina linear infinite;
+    animation: 3s miodina linear infinite;
 }
 
 #nationalite::before {
