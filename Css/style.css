@@ -12,6 +12,28 @@ body {
     color: #fff;
 }
 
+.souris {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #003cbf;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: transform .15s linear, width .3s linear, height .3s linear, background-color .3s, border .3s;
+    z-index: 1000;
+}
+
+body:has(.links li:hover,.bouton:hover) .souris {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+     transition: 0.3s ease;
+}
+
 li {
     list-style: none;
 }
@@ -543,7 +565,7 @@ a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; */
-    background: linear-gradient(rgb(137, 137, 139), #1f52c0, rgba(59, 59, 59, 0.603)) ;
+    background: linear-gradient(rgb(137, 137, 139), #1f52c0, rgba(59, 59, 59, 0.603));
     display: flex;
     flex-direction: column;
     padding: 3rem 0;
@@ -768,6 +790,7 @@ th {
     color: #fff;
     outline: none;
 }
+
 .about .contenair .message .mess textarea {
     width: 100%;
     height: 100px;
@@ -784,7 +807,7 @@ th {
     text-align: center;
     margin-left: auto;
     background-color: #003cbf;
-      border-radius: 30px;
+    border-radius: 30px;
 }
 
 
@@ -802,7 +825,7 @@ th {
     transition: 1s ease;
 }
 
-.about .contenair .message .btnsend button:active{
+.about .contenair .message .btnsend button:active {
     transform: scale(0.5);
 }
 
@@ -828,7 +851,7 @@ footer {
 
 footer p {
     color: #003cbf;
-   
+
 }
 
 footer img {

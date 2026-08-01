@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,12 +16,13 @@
     <link rel="stylesheet" href="/Css/style.css">
     <link rel="stylesheet" href="/Css/responsive.css">
     <link rel="stylesheet" href="/Css/animation.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" type="image/svg+xml" href="/Asset/icons/S.svg">
     <title>Miaro_Andrian</title>
 </head>
 
 <body>
+
+    <div class="souris"></div>
 
     <header>
         <div class="navbar">
@@ -329,19 +331,7 @@
         <p>2026.</p>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        const menuBurger = document.querySelector('.menu_burger');
-        const menuBurgerIcone = document.querySelector('.menu_burger i');
-        const menuResponsive = document.querySelector('.menu_responsive');
-
-        menuBurger.onclick = function () {
-            menuResponsive.classList.toggle('open_menu');
-            const isOpen = menuResponsive.classList.contains('open_menu');
-            menuBurgerIcone.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
-        }
-        AOS.init({ offset: 0 });
-    </script>
-    <!-- zavatra tsy de misy dikany le script eto fa tsarao sans -->
+    <script src="/Js/script.js"></script>
 </body>
 
 </html>
